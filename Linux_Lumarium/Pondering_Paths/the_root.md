@@ -23,4 +23,4 @@ This was an essential element of navigation in the terminal and file system of a
 in daily operation and is further built upon in memory architecture through various sub-directories whom we anchor to the root directory.   
 
 ## References
-pwn.college youtube: Linux Luminarium - 2 The File System video
+pwn.college youtube: Linux Luminarium - 2 The File System video https://youtu.be/b67Jq6IZ3U8?list=PL-ymxv0nOtqqRAz1x90vxNbhmSkeYxHVC
