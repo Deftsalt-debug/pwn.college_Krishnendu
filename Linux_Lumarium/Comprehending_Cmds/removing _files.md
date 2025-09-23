@@ -18,7 +18,7 @@ pwn.college{EJ9A3Vi20Nzb3wJkjh6sFrbkT2g.QX2kDM1wiMwkjNzEzW}
 Nothing here
 
 ## What I learned
-'rm' is another key tool to navigating the command line and our system, to remove files we will need to pass the filename as an argument while being under the directory containing the file. Here we call rm with the file 'delete_me' and it subseqently deletes it from the system. As we are under the home directory containing the file, there is no need to cd into anything.
+'rm' is another key tool to navigating the command line and our system, to remove files we will need to pass the filename as an argument while being under the directory containing the file. Here we call rm with the file 'delete_me' and it subseqently deletes it from the system. As we are under the home directory containing the file, there is no need to cd into anything before removal.
 
 ## References
 None
