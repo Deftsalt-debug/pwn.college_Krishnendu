@@ -4,9 +4,9 @@ Comparing files
 ## My solve
 **Flag:** `pwn.college{UgK3eCsbGIJ6y0jpiBmnaTNsUfz.01MwMDOxwiMwkjNzEzW}`
 
-``` bash
+```bash
 Connected!
-<iff /challenge/decoys_only.txt /challenge/decoys_and_real.txt                                     <iff /challenge/decoys_only.txt /challenge/decoys_and_real.txt
+diff /challenge/decoys_only.txt /challenge/decoys_and_real.txt
 59a60
 > pwn.college{UgK3eCsbGIJ6y0jpiBmnaTNsUfz.01MwMDOxwiMwkjNzEzW}
 ```
