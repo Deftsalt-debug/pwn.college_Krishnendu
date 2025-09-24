@@ -19,3 +19,6 @@ I did not cd into the root directory and instead tried looking into the home dir
 
 ## What I learned
 This is the first instance where we are using options/flags with our commands these can be used to brute force and remove any limitations such as hidden files in this instance. This gives us a new layer of control and complexity to our commands and is used to enable/disable characteristics to our commands. Here we augment the -a flag with ls to list all the files under the directory, including the hidden files (files which start with a .) which linux hides by default. 
+
+## References
+None to record here.
