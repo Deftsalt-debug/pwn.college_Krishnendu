@@ -31,7 +31,7 @@ pwn.college{wzbA-znycLvshCU5yRMUUd5YMQB.QXxITO0wiMwkjNzEzW}
 Here I had initially used tee into /challenge/college which yeilded an error and sent me into a very ridiculous error where I omitted tee itself out of sheer curiosity. Both yeilding in error and making me redirect /challenge/pwn into the file pwn and /challenge/college via the tee command.
 
 ## What I learned
-The tee command is a method by which we reroute the output to be piped into two different destinations, by essence splitting the piping and creating a junction from which the output is passed into two different destinations. Thus creating two copies of the output from /challenge/pwn, one into the file pwn and into the /challenge/college. Catting pwn gives us the exact argument we need to pass to get the flag and we repipe the /challenge/pwn into /challenge/college with the correct argument to obtain the flag
+The tee command is a method by which we reroute the output to be piped into two different destinations, by essence splitting the piping and creating a junction from which the output is passed into two different destinations (this is like piping two times at once). Thus creating two copies of the output from /challenge/pwn, one into the file pwn and into the /challenge/college. Catting pwn gives us the exact argument we need to pass to get the flag and we repipe the /challenge/pwn into /challenge/college with the correct argument to obtain the flag
 
 ## References 
 None here.
