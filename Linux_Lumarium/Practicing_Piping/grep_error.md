@@ -32,7 +32,7 @@ pwn.college{snPNx6yVFvqZLqFicSVCBsJOMmZ.QX1ATO0wiMwkjNzEzW}
 None to report here
 
 ## What I learned
-The default nature of the pipe operator forbids the use of anything to be passed into it that isn't a atandard output. So if we were to pipe an error, we'd need an equivalent to a file descriptor but for commands since FD operator(>) are only exclusive to files. Thankfully the shell includes the '>&' operator, which redirects a file descriptor to another file descriptor, so therefore we can reroute the error using the 2 FD and the >& operator into 1 FD and pipe the error masked as FD 1 into the pipe without any error and pipe it into grep for searching the flag.
+The default nature of the pipe operator forbids the use of anything to be passed into it that isn't a standard output. So if we were to pipe an error, we'd need an equivalent to a file descriptor but for commands since FD operator(>) are only exclusive to files. Thankfully the shell includes the '>&' operator, which redirects a file descriptor to another file descriptor, so therefore we can reroute the error using the 2 FD and the >& operator into 1 FD and pipe the error masked as FD 1 (standard output) into the pipe without any error and pipe it into grep for searching the flag.
 
 ## References
 None to note here.
