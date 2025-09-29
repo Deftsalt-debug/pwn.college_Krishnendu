@@ -23,7 +23,7 @@ pwn.college{wdujt8jHqWs1tRwcxjLIxt5V6Di.QX4MDO0wiMwkjNzEzW}
 None to note here
 
 ## What I learned
-To list processes running under the shell, was use the command ps suffixed with -ef or aux to hand us more data compared to a minute amount ps itself gives us. -ef flag is standard syntax where e lists every output and f does the listing under full format, the -ef argument also provides an additional Parent Process ID (PID) of the processes. Suffiing aux also gives us the similar values as -ef but instead of PID, it outputs the percentage of total system CPU and Memory that the process is utilizing.
+To list processes running under the shell, was use the command ps suffixed with -ef or aux to hand us more data compared to a minute amount ps itself gives us. -ef flag is standard syntax where e lists every output and f does the listing under full format, the -ef argument also provides an additional Parent Process ID (PID) of the processes. Suffixing aux also gives us the similar values as -ef but instead of PID, it outputs the percentage of total system CPU and Memory that the process is utilizing.
 
 ## References
 None here.
