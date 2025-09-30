@@ -24,7 +24,7 @@ Goodbye!
 None to report in this instance.
 
 ## What I learned
-Upon suspension of a process, the terminal being regained allows for us to continue using it with the process paused indefinitely, to resume it, we use a builtin 'fg' which resumes suspended processes of the terminal.
+Upon suspension of a process, the terminal being regained allows for us to continue using it with the process paused indefinitely, to resume it, we use a builtin 'fg' which resumes suspended processes of the terminal, it's a trnaslation of foreground.
 
 ## References
 None to report here.
