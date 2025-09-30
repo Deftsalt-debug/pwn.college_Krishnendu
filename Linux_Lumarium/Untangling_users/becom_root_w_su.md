@@ -18,7 +18,7 @@ pwn.college{gWipPkW72LpfaJgYbtRm1pcKsYM.QX1UDN1wiMwkjNzEzW}
 None to report here.
 
 ## What I learned 
-The root is used to referred to as the system administrator under the linux hierarchy. 'Su', an older command used to ascend to the root access. Running it usually requires a rot password which is, in the modern age, obsolete. The SUID (Set User ID) bit, which su has and runs in, is a unique flag in linux that allows/permits a file to be executed with the privileges of the file's owner(here being the root user).
+The root is used to refer to the system administrator under the linux hierarchy. 'Su' is an older command used to ascend to the root access. Running it usually requires a root password which is, in the modern age, obsolete. The SUID (Set User ID) bit, which su has and runs in, is a unique flag in linux that allows/permits a file to be executed with the privileges of the file's owner(here being the root user).
 
 ## References
 None to note here.
