@@ -20,4 +20,4 @@ Here out of a mis-type I had placed the slash to the flag next to cat which wasn
 The linux system is comprised of multiple users each bottlenecked by permissions (except the root user) which allow them to only perform, modify and access a few files and commands to specify sole purposes. This division of a specific command or file can be seen by using ls with the -la flag passed to it, it specifies the access control of the file via a 12 bit sequence with respect to the owner, owner group and all other users of the system. with the letters r, w and x specifiying the ability to read, write and execute the file respectively. The command 'chown' allows for us to change the owner of a file by passing two arguments, the user we want to switch ownership to and the file specified. This can only be done without failure when we call this command *as the owner of the file*. In general chown can only be invoked by the root user. 
 
 ## References
-None to report here. 
+PWN.COLLEGE youtube - POSIX Access Control https://youtu.be/OG5yXzn-cVs?list=PL-ymxv0nOtqotjW-uK_YSj9pm5tTKf87J
