@@ -22,10 +22,10 @@ pwn.college{o4moSvYXrjOjgoVfLDrlTpYqvdo.QX3UDN1wiMwkjNzEzW}
 ```
 
 ## Incorrect tangents I went on
-Here I had continuously interrupted the cracking process, aborting the john the ripper process before it output anything assumping I had misinterpreted the challenge. The output the abortion of the process gave was what I assumed was the password to the zardus user, being entirely incorrect.
+Here I had continuously interrupted the cracking process, aborting the john the ripper process before it output anything assuming I had misinterpreted the challenge. The output the abortion of the process gave was what I assumed was the password to the zardus user, being entirely incorrect.
 
 ## What I learned
-Here we use the program names john-the-ripper on a leaked /shadow file, a critical aspect of the system which stores all the users passwords encrypted by a one way hash. John here accesses the file and runs multiple algorithms to de-encrypt the passwords stored in /shadow-leak. This challenge simulated a passowrd leak and how we can use it as an advantage to slip into another user's shell by utilising john to get the password to zardus.
+Here we use the program named john-the-ripper on a leaked /shadow file, a critical aspect of the system which stores all the users passwords encrypted by a one way hash. John here accesses the file and runs multiple algorithms to de-encrypt the passwords stored in /shadow-leak. This challenge simulated a password leak and how we can use it as an advantage to slip into another user's shell by utilising john to get the password to zardus.
 
 ## References
-None here.
+None here. It is entirely thanks to my mentor for the TP who helped me out here.
