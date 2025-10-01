@@ -230,7 +230,7 @@ pwn.college{MoexdOr-A1KwkhQyljNdrdhuqqZ.QXzETO0wiMwkjNzEzW}
 None here.
 
 ## What I learned
-Chmod can be used to overwrite a user's perms too, instead of adding or removing to a user, we can use the '=' operator in place of +/- and chmod will overwrite the perms of that user with whatever new perm we specify. We also learnt how we can chain multiple perm changes at a single command using ',' allowing us to modfiy an entire file's access id perms at a single line in the shell. Thi challenge required the previous challenge's prior knowledge along with the added knowledge of chaining MODE changes and overwriting.
+Chmod can be used to overwrite a user's perms too, instead of adding or removing to a user, we can use the '=' operator in place of +/- and chmod will overwrite the perms of that user with whatever new perm we specify. We also learnt how we can chain multiple perm changes at a single command using ',' allowing us to modfiy an entire file's access id perms at a single line in the shell. This challenge required the previous challenge's prior knowledge along with the added knowledge of chaining MODE changes and overwriting.
 
 ## References
 None.
