@@ -16,10 +16,10 @@ hacker@terminal-multiplexing~switching-windows-tmux:~$  cat <<MSG
 ```
 
 ## Incorrect tangents I went on
-Here I had accedentally created a new instance of tmux instead of reattaching into the chellenge's window, thus having to pass 'a' as the argument to tmux so as to reattach to the window.
+Here I had accedentally created a new instance of tmux instead of reattaching into the challenge's window, thus having to pass 'a' as the argument to tmux so as to reattach to the window.
 
 ## What I learned
-Tmux allows for a few commands similar in vein to screen but obviously now with a different command prefix(ctrl-b). We attach a key character with the command prefix to allow for numerous processes in tmux such as creating windows(c), switching between the(0-9), picking a window(w) or sikmming past the next and previous windows(n, p). 
+Tmux allows for a few commands similar in vein to screen but obviously now with a different command prefix(ctrl-b). We attach a key character with the command prefix to allow for numerous processes in tmux such as creating windows(c), switching between them(0-9), picking a window(w) or sikmming past the next and previous windows(n, p). 
 
 ## References
 None.
