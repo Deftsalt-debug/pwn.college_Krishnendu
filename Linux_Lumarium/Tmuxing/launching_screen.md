@@ -20,7 +20,7 @@ hacker@terminal-multiplexing~launching-screen:~$
 None to note here.
 
 ## What I learned
-Terminal Multiplexing allows for us as the user to initiate multiple screens of the shell, allowing for us to maintain multiple commands and shell under variate users and ssh linking, all interconnected to one system. This is more of a multitasking tool to allow for our efficiency to improve.
+Terminal Multiplexing allows for us as the user to initiate multiple screens of the shell, allowing for us to maintain multiple commands and shell under variate users and ssh linking, all interconnected to one system. This is more of a multitasking tool to allow for our efficiency to improve. We can also exit a screen through Ctrl+D or simply typing exit to return to our original shell.
 
 ## References 
 None to note here.
