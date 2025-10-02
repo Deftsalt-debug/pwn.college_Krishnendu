@@ -1,5 +1,5 @@
 # Challenge name
-Scripting with multiple conditions
+Scripting with default conditions
 
 ## My solve
 **Flag:** `pwn.college{IFOxSr4K-mPLEpToCRk0WpfQ96l.01NzMDOxwiMwkjNzEzW}`
